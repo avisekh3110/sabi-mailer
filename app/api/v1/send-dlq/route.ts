@@ -9,7 +9,7 @@ export const POST = verifySignatureAppRouter(async function (
   console.warn("Received a Dead Email");
   console.log(payload);
 
-  await fetch("https://ntfy.sh/m0b-mailer", {
+  await fetch("https://ntfy.sh/sabi-mailer", {
     method: "POST",
     body: JSON.stringify(payload, null, 2),
   });
