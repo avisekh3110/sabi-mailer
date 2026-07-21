@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sabi-mailer | By Avisekh",
+  title: "m0b - mailer | by Yash",
   description:
-    "A email service for my project implementing the microservice architecture",
+    "An email service for my projects implementing the microservice architecture",
 };
 
 export default function RootLayout({
@@ -24,11 +24,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en">
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-zinc-50 dark:bg-black text-zinc-950 dark:text-zinc-50`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
