@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "m0b - mailer | by Yash",
+  title: "Sabi Mailer | by Avisekh",
   description:
     "An email service for my projects implementing the microservice architecture",
 };

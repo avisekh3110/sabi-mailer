@@ -12,9 +12,9 @@ export default function Home() {
       desc: "Send an email message",
       reqBody: {
         to: "johndoe@example.com",
-        subject: "Welcome to m0b mailer",
+        subject: "Welcome to sabi mailer",
         html: "<h1>This is a test</h1>",
-        appName: "Kayaws",
+        appName: "Yapbox",
       },
       resBody: {
         success: true,
@@ -28,9 +28,9 @@ export default function Home() {
       desc: "Send dead messages after retries for logging",
       reqBody: {
         to: "johndoe@example.com",
-        subject: "Welcome to m0b mailer",
+        subject: "Welcome to sabi mailer",
         html: "<h1>This is a test</h1>",
-        appName: "Kayaws",
+        appName: "Yapbox",
       },
       resBody: {
         success: true,
